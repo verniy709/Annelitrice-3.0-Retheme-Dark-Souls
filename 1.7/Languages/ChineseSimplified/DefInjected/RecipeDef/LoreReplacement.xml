@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <Cure_Anneli_Infection.label>【待翻译】Cure_Anneli_Infection 名称</Cure_Anneli_Infection.label>
+  <Cure_Anneli_Infection.description>【待翻译】Cure_Anneli_Infection 背景描述。</Cure_Anneli_Infection.description>
+  <Cure_Anneli_Infection.jobString>【待翻译】正在执行 Cure_Anneli_Infection。</Cure_Anneli_Infection.jobString>
+  <Cure_Anneli_Infection.successfullyRemovedHediffMessage>【待翻译】{0} 已治愈 {1}。</Cure_Anneli_Infection.successfullyRemovedHediffMessage>
+  <HatchAnneliEggs.label>【待翻译】HatchAnneliEggs 名称</HatchAnneliEggs.label>
+  <HatchAnneliEggs.description>【待翻译】HatchAnneliEggs 背景描述。</HatchAnneliEggs.description>
+  <ButcherAnneliEggs.label>【待翻译】ButcherAnneliEggs 名称</ButcherAnneliEggs.label>
+  <ButcherAnneliEggs.description>【待翻译】ButcherAnneliEggs 背景描述。</ButcherAnneliEggs.description>
+  <CremateAnneliEggs.label>【待翻译】CremateAnneliEggs 名称</CremateAnneliEggs.label>
+  <CremateAnneliEggs.description>【待翻译】CremateAnneliEggs 背景描述。</CremateAnneliEggs.description>
+  <Anneli_AnthelminticAnneliEggs.label>【待翻译】Anneli_AnthelminticAnneliEggs 名称</Anneli_AnthelminticAnneliEggs.label>
+  <Anneli_AnthelminticAnneliEggs.description>【待翻译】Anneli_AnthelminticAnneliEggs 背景描述。</Anneli_AnthelminticAnneliEggs.description>
+</LanguageData>

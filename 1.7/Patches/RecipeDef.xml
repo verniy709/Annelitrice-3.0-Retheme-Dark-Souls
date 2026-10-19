@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- TODO: RecipeDef Cure_Anneli_Infection / label -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="Cure_Anneli_Infection"]/label</xpath>
+    <value>
+      <label>[TODO] Cure_Anneli_Infection label</label>
+    </value>
+  </Operation>
+
+  <!-- TODO: RecipeDef Cure_Anneli_Infection / description -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="Cure_Anneli_Infection"]/description</xpath>
+    <value>
+      <description>[TODO] Cure_Anneli_Infection description</description>
+    </value>
+  </Operation>
+
+  <!-- TODO: RecipeDef Cure_Anneli_Infection / jobString -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="Cure_Anneli_Infection"]/jobString</xpath>
+    <value>
+      <jobString>[TODO] Cure_Anneli_Infection jobString</jobString>
+    </value>
+  </Operation>
+
+  <!-- TODO: RecipeDef Cure_Anneli_Infection / successfullyRemovedHediffMessage -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="Cure_Anneli_Infection"]/successfullyRemovedHediffMessage</xpath>
+    <value>
+      <successfullyRemovedHediffMessage>[TODO] {0} cured {1}'s condition.</successfullyRemovedHediffMessage>
+    </value>
+  </Operation>
+
+  <!-- TODO: RecipeDef HatchAnneliEggs / label -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="HatchAnneliEggs"]/label</xpath>
+    <value>
+      <label>[TODO] HatchAnneliEggs name</label>
+    </value>
+  </Operation>
+
+  <!-- TODO: RecipeDef HatchAnneliEggs / description -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="HatchAnneliEggs"]/description</xpath>
+    <value>
+      <description>[TODO] HatchAnneliEggs lore description.</description>
+    </value>
+  </Operation>
+
+  <!-- TODO: RecipeDef ButcherAnneliEggs / label -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="ButcherAnneliEggs"]/label</xpath>
+    <value>
+      <label>[TODO] ButcherAnneliEggs name</label>
+    </value>
+  </Operation>
+
+  <!-- TODO: RecipeDef ButcherAnneliEggs / description -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="ButcherAnneliEggs"]/description</xpath>
+    <value>
+      <description>[TODO] ButcherAnneliEggs lore description.</description>
+    </value>
+  </Operation>
+
+  <!-- TODO: RecipeDef CremateAnneliEggs / label -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="CremateAnneliEggs"]/label</xpath>
+    <value>
+      <label>[TODO] CremateAnneliEggs name</label>
+    </value>
+  </Operation>
+
+  <!-- TODO: RecipeDef CremateAnneliEggs / description -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="CremateAnneliEggs"]/description</xpath>
+    <value>
+      <description>[TODO] CremateAnneliEggs lore description.</description>
+    </value>
+  </Operation>
+
+  <!-- TODO: RecipeDef Anneli_AnthelminticAnneliEggs / label -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="Anneli_AnthelminticAnneliEggs"]/label</xpath>
+    <value>
+      <label>[TODO] Anneli_AnthelminticAnneliEggs name</label>
+    </value>
+  </Operation>
+
+  <!-- TODO: RecipeDef Anneli_AnthelminticAnneliEggs / description -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="Anneli_AnthelminticAnneliEggs"]/description</xpath>
+    <value>
+      <description>[TODO] Anneli_AnthelminticAnneliEggs lore description.</description>
+    </value>
+  </Operation>
+
+  <!-- Butchering one egg yields only five nutrient solution. -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="ButcherAnneliEggs"]/products</xpath>
+    <value>
+      <products>
+        <Anneli_NutrientSolution>5</Anneli_NutrientSolution>
+      </products>
+    </value>
+  </Operation>
+</Patch>

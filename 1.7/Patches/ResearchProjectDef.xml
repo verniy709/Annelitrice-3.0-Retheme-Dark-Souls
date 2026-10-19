@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- TODO: ResearchProjectDef Anneli_Fountain / label -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="Anneli_Fountain"]/label</xpath>
+    <value>
+      <label>[TODO] Anneli_Fountain research name</label>
+    </value>
+  </Operation>
+
+  <!-- TODO: ResearchProjectDef Anneli_Fountain / description -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="Anneli_Fountain"]/description</xpath>
+    <value>
+      <description>[TODO] Anneli_Fountain research description.</description>
+    </value>
+  </Operation>
+
+  <!-- TODO: ResearchProjectDef Anneli_NutrientSolution / label -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="Anneli_NutrientSolution"]/label</xpath>
+    <value>
+      <label>[TODO] Anneli_NutrientSolution research name</label>
+    </value>
+  </Operation>
+
+  <!-- TODO: ResearchProjectDef Anneli_NutrientSolution / description -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="Anneli_NutrientSolution"]/description</xpath>
+    <value>
+      <description>[TODO] Anneli_NutrientSolution research description.</description>
+    </value>
+  </Operation>
+
+  <!-- TODO: ResearchProjectDef Anneli_PuppetTheatre / label -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="Anneli_PuppetTheatre"]/label</xpath>
+    <value>
+      <label>[TODO] Anneli_PuppetTheatre research name</label>
+    </value>
+  </Operation>
+
+  <!-- TODO: ResearchProjectDef Anneli_PuppetTheatre / description -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="Anneli_PuppetTheatre"]/description</xpath>
+    <value>
+      <description>[TODO] Anneli_PuppetTheatre research description.</description>
+    </value>
+  </Operation>
+</Patch>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- TODO: ThingDef AnnelitriceLarvaAsAnimal / label -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="AnnelitriceLarvaAsAnimal"]/label</xpath>
+    <value>
+      <label>[TODO] Larva creature name</label>
+    </value>
+  </Operation>
+
+  <!-- TODO: ThingDef AnnelitriceLarvaAsAnimal / description -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="AnnelitriceLarvaAsAnimal"]/description</xpath>
+    <value>
+      <description>[TODO] Larva creature description.</description>
+    </value>
+  </Operation>
+
+  <!-- TODO: ThingDef Anneli_Fountain / label -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Anneli_Fountain"]/label</xpath>
+    <value>
+      <label>[TODO] Anneli_Fountain name</label>
+    </value>
+  </Operation>
+
+  <!-- TODO: ThingDef Anneli_Fountain / description -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Anneli_Fountain"]/description</xpath>
+    <value>
+      <description>[TODO] Anneli_Fountain lore description.</description>
+    </value>
+  </Operation>
+
+  <!-- TODO: ThingDef Anneli_PuppetTheatre / label -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Anneli_PuppetTheatre"]/label</xpath>
+    <value>
+      <label>[TODO] Anneli_PuppetTheatre name</label>
+    </value>
+  </Operation>
+
+  <!-- TODO: ThingDef Anneli_PuppetTheatre / description -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Anneli_PuppetTheatre"]/description</xpath>
+    <value>
+      <description>[TODO] Anneli_PuppetTheatre lore description.</description>
+    </value>
+  </Operation>
+
+  <!-- TODO: ThingDef Anneli_Anthelmintic / label -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Anneli_Anthelmintic"]/label</xpath>
+    <value>
+      <label>[TODO] Anneli_Anthelmintic name</label>
+    </value>
+  </Operation>
+
+  <!-- TODO: ThingDef Anneli_Anthelmintic / description -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Anneli_Anthelmintic"]/description</xpath>
+    <value>
+      <description>[TODO] Anneli_Anthelmintic lore description.</description>
+    </value>
+  </Operation>
+
+  <!-- TODO: ThingDef Anneli_ColonistEgg / label -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Anneli_ColonistEgg"]/label</xpath>
+    <value>
+      <label>[TODO] Anneli_ColonistEgg name</label>
+    </value>
+  </Operation>
+
+  <!-- TODO: ThingDef Anneli_ColonistEgg / description -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Anneli_ColonistEgg"]/description</xpath>
+    <value>
+      <description>[TODO] Anneli_ColonistEgg lore description.</description>
+    </value>
+  </Operation>
+
+  <!-- TODO: ThingDef Anneli_OutsiderEgg / label -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Anneli_OutsiderEgg"]/label</xpath>
+    <value>
+      <label>[TODO] Anneli_OutsiderEgg name</label>
+    </value>
+  </Operation>
+
+  <!-- TODO: ThingDef Anneli_OutsiderEgg / description -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Anneli_OutsiderEgg"]/description</xpath>
+    <value>
+      <description>[TODO] Anneli_OutsiderEgg lore description.</description>
+    </value>
+  </Operation>
+
+  <!-- TODO: ThingDef Anneli_NutrientSolution / label -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Anneli_NutrientSolution"]/label</xpath>
+    <value>
+      <label>[TODO] Anneli_NutrientSolution name</label>
+    </value>
+  </Operation>
+
+  <!-- TODO: ThingDef Anneli_NutrientSolution / description -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Anneli_NutrientSolution"]/description</xpath>
+    <value>
+      <description>[TODO] Anneli_NutrientSolution lore description.</description>
+    </value>
+  </Operation>
+
+  <!-- TODO: ThingDef Anneli_Pupa / label -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Anneli_Pupa"]/label</xpath>
+    <value>
+      <label>[TODO] Anneli_Pupa name</label>
+    </value>
+  </Operation>
+
+  <!-- TODO: ThingDef Anneli_Pupa / description -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Anneli_Pupa"]/description</xpath>
+    <value>
+      <description>[TODO] Anneli_Pupa lore description.</description>
+    </value>
+  </Operation>
+
+  <!-- Keep every retheme image under its own texture root, including random variants and masks. -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Anneli_Fountain"]/graphicData/texPath</xpath>
+    <value>
+      <texPath>Anneli_Retheme_DarkSouls/Anneli_Building/Fountain</texPath>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Anneli_PuppetTheatre"]/graphicData/texPath</xpath>
+    <value>
+      <texPath>Anneli_Retheme_DarkSouls/Anneli_Building/PuppetTheatre</texPath>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Anneli_Anthelmintic"]/graphicData/texPath</xpath>
+    <value>
+      <texPath>Anneli_Retheme_DarkSouls/Anneli_Item/Anthelmintic</texPath>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Anneli_NutrientSolution"]/graphicData/texPath</xpath>
+    <value>
+      <texPath>Anneli_Retheme_DarkSouls/Anneli_Item/NutrientSolution</texPath>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Anneli_ColonistEgg"]/graphicData/texPath</xpath>
+    <value>
+      <texPath>Anneli_Retheme_DarkSouls/Anneli_Item/Egg_Colonist</texPath>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Anneli_OutsiderEgg"]/graphicData/texPath</xpath>
+    <value>
+      <texPath>Anneli_Retheme_DarkSouls/Anneli_Item/Egg</texPath>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Anneli_Pupa"]/graphicData/texPath</xpath>
+    <value>
+      <texPath>Anneli_Retheme_DarkSouls/Anneli_Item/Pupa</texPath>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="AnnelitriceLarvaAsAnimal"]/statBases</xpath>
+    <value>
+      <MeatAmount>0</MeatAmount>
+    </value>
+  </Operation>
+
+  <!-- The larva's ThingDef is AnnelitriceLarvaAsAnimal, not PawnKindDef Anneli_Larva. -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="AnnelitriceLarvaAsAnimal"]</xpath>
+    <value>
+      <butcherProducts>
+        <Anneli_NutrientSolution>10</Anneli_NutrientSolution>
+      </butcherProducts>
+    </value>
+  </Operation>
+</Patch>

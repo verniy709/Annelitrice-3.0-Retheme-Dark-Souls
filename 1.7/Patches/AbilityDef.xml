@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AbilityDef[defName="Anneli_Infest"]/iconPath</xpath>
+    <value>
+      <iconPath>Anneli_Retheme_DarkSouls/Anneli_UI/Anneli_Infect</iconPath>
+    </value>
+  </Operation>
+
+  <!-- TODO: AbilityDef Anneli_Infest / label -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AbilityDef[defName="Anneli_Infest"]/label</xpath>
+    <value>
+      <label>[TODO] Anneli_Infest ability name</label>
+    </value>
+  </Operation>
+
+  <!-- TODO: AbilityDef Anneli_Infest / description -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AbilityDef[defName="Anneli_Infest"]/description</xpath>
+    <value>
+      <description>[TODO] Anneli_Infest ability description.</description>
+    </value>
+  </Operation>
+</Patch>

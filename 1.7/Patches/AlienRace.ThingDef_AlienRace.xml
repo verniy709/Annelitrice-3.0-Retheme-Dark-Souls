@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- TODO: AlienRace.ThingDef_AlienRace Annelitrice / label -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Annelitrice"]/label</xpath>
+    <value>
+      <label>[TODO] Annelitrice race name</label>
+    </value>
+  </Operation>
+
+  <!-- TODO: AlienRace.ThingDef_AlienRace Annelitrice / description -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Annelitrice"]/description</xpath>
+    <value>
+      <description>[TODO] Annelitrice race lore and gameplay description.</description>
+    </value>
+  </Operation>
+
+  <!-- MeatAmount controls the ordinary meat yield; useMeatFrom alone does not produce meat. -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Annelitrice"]/statBases/MeatAmount</xpath>
+    <value>
+      <MeatAmount>0</MeatAmount>
+    </value>
+  </Operation>
+
+  <!-- Adult Annelitrice: add nutrient solution to the butcher products. -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Annelitrice"]</xpath>
+    <value>
+      <butcherProducts>
+        <Anneli_NutrientSolution>30</Anneli_NutrientSolution>
+      </butcherProducts>
+    </value>
+  </Operation>
+</Patch>

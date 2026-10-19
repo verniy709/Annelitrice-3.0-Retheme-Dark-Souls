@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- TODO: AlienRace.AlienBackstoryDef Anneli_NormalWorm / title -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_NormalWorm"]/title</xpath>
+    <value>
+      <title>[TODO] Anneli_NormalWorm childhood title</title>
+    </value>
+  </Operation>
+
+  <!-- TODO: AlienRace.AlienBackstoryDef Anneli_NormalWorm / titleShort -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_NormalWorm"]/titleShort</xpath>
+    <value>
+      <titleShort>[TODO] Anneli_NormalWorm short title</titleShort>
+    </value>
+  </Operation>
+
+  <!-- TODO: AlienRace.AlienBackstoryDef Anneli_NormalWorm / baseDesc -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_NormalWorm"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] — [TODO] childhood lore for Anneli_NormalWorm.</baseDesc>
+    </value>
+  </Operation>
+
+  <!-- TODO: AlienRace.AlienBackstoryDef Anneli_ActiveWorm / title -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_ActiveWorm"]/title</xpath>
+    <value>
+      <title>[TODO] Anneli_ActiveWorm childhood title</title>
+    </value>
+  </Operation>
+
+  <!-- TODO: AlienRace.AlienBackstoryDef Anneli_ActiveWorm / titleShort -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_ActiveWorm"]/titleShort</xpath>
+    <value>
+      <titleShort>[TODO] Anneli_ActiveWorm short title</titleShort>
+    </value>
+  </Operation>
+
+  <!-- TODO: AlienRace.AlienBackstoryDef Anneli_ActiveWorm / baseDesc -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_ActiveWorm"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] — [TODO] childhood lore for Anneli_ActiveWorm.</baseDesc>
+    </value>
+  </Operation>
+
+  <!-- TODO: AlienRace.AlienBackstoryDef Anneli_FriendlyWorm / title -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_FriendlyWorm"]/title</xpath>
+    <value>
+      <title>[TODO] Anneli_FriendlyWorm childhood title</title>
+    </value>
+  </Operation>
+
+  <!-- TODO: AlienRace.AlienBackstoryDef Anneli_FriendlyWorm / titleShort -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_FriendlyWorm"]/titleShort</xpath>
+    <value>
+      <titleShort>[TODO] Anneli_FriendlyWorm short title</titleShort>
+    </value>
+  </Operation>
+
+  <!-- TODO: AlienRace.AlienBackstoryDef Anneli_FriendlyWorm / baseDesc -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_FriendlyWorm"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] — [TODO] childhood lore for Anneli_FriendlyWorm.</baseDesc>
+    </value>
+  </Operation>
+
+  <!-- TODO: AlienRace.AlienBackstoryDef Anneli_CreativeWorm / title -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_CreativeWorm"]/title</xpath>
+    <value>
+      <title>[TODO] Anneli_CreativeWorm childhood title</title>
+    </value>
+  </Operation>
+
+  <!-- TODO: AlienRace.AlienBackstoryDef Anneli_CreativeWorm / titleShort -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_CreativeWorm"]/titleShort</xpath>
+    <value>
+      <titleShort>[TODO] Anneli_CreativeWorm short title</titleShort>
+    </value>
+  </Operation>
+
+  <!-- TODO: AlienRace.AlienBackstoryDef Anneli_CreativeWorm / baseDesc -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_CreativeWorm"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] — [TODO] childhood lore for Anneli_CreativeWorm.</baseDesc>
+    </value>
+  </Operation>
+
+  <!-- TODO: AlienRace.AlienBackstoryDef Anneli_DiggingWorm / title -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_DiggingWorm"]/title</xpath>
+    <value>
+      <title>[TODO] Anneli_DiggingWorm childhood title</title>
+    </value>
+  </Operation>
+
+  <!-- TODO: AlienRace.AlienBackstoryDef Anneli_DiggingWorm / titleShort -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_DiggingWorm"]/titleShort</xpath>
+    <value>
+      <titleShort>[TODO] Anneli_DiggingWorm short title</titleShort>
+    </value>
+  </Operation>
+
+  <!-- TODO: AlienRace.AlienBackstoryDef Anneli_DiggingWorm / baseDesc -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_DiggingWorm"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] — [TODO] childhood lore for Anneli_DiggingWorm.</baseDesc>
+    </value>
+  </Operation>
+
+  <!-- TODO: AlienRace.AlienBackstoryDef Anneli_FastGrowingWorm / title -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_FastGrowingWorm"]/title</xpath>
+    <value>
+      <title>[TODO] Anneli_FastGrowingWorm childhood title</title>
+    </value>
+  </Operation>
+
+  <!-- TODO: AlienRace.AlienBackstoryDef Anneli_FastGrowingWorm / titleShort -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_FastGrowingWorm"]/titleShort</xpath>
+    <value>
+      <titleShort>[TODO] Anneli_FastGrowingWorm short title</titleShort>
+    </value>
+  </Operation>
+
+  <!-- TODO: AlienRace.AlienBackstoryDef Anneli_FastGrowingWorm / baseDesc -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_FastGrowingWorm"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] — [TODO] childhood lore for Anneli_FastGrowingWorm.</baseDesc>
+    </value>
+  </Operation>
+
+  <!-- TODO: AlienRace.AlienBackstoryDef Anneli_BellicoseWorm / title -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_BellicoseWorm"]/title</xpath>
+    <value>
+      <title>[TODO] Anneli_BellicoseWorm childhood title</title>
+    </value>
+  </Operation>
+
+  <!-- TODO: AlienRace.AlienBackstoryDef Anneli_BellicoseWorm / titleShort -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_BellicoseWorm"]/titleShort</xpath>
+    <value>
+      <titleShort>[TODO] Anneli_BellicoseWorm short title</titleShort>
+    </value>
+  </Operation>
+
+  <!-- TODO: AlienRace.AlienBackstoryDef Anneli_BellicoseWorm / baseDesc -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_BellicoseWorm"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] — [TODO] childhood lore for Anneli_BellicoseWorm.</baseDesc>
+    </value>
+  </Operation>
+
+  <!-- TODO: AlienRace.AlienBackstoryDef Anneli_NerdyWorm / title -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_NerdyWorm"]/title</xpath>
+    <value>
+      <title>[TODO] Anneli_NerdyWorm childhood title</title>
+    </value>
+  </Operation>
+
+  <!-- TODO: AlienRace.AlienBackstoryDef Anneli_NerdyWorm / titleShort -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_NerdyWorm"]/titleShort</xpath>
+    <value>
+      <titleShort>[TODO] Anneli_NerdyWorm short title</titleShort>
+    </value>
+  </Operation>
+
+  <!-- TODO: AlienRace.AlienBackstoryDef Anneli_NerdyWorm / baseDesc -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_NerdyWorm"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] — [TODO] childhood lore for Anneli_NerdyWorm.</baseDesc>
+    </value>
+  </Operation>
+
+  <!-- TODO: AlienRace.AlienBackstoryDef Anneli_ShrewdWorm / title -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_ShrewdWorm"]/title</xpath>
+    <value>
+      <title>[TODO] Anneli_ShrewdWorm childhood title</title>
+    </value>
+  </Operation>
+
+  <!-- TODO: AlienRace.AlienBackstoryDef Anneli_ShrewdWorm / titleShort -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_ShrewdWorm"]/titleShort</xpath>
+    <value>
+      <titleShort>[TODO] Anneli_ShrewdWorm short title</titleShort>
+    </value>
+  </Operation>
+
+  <!-- TODO: AlienRace.AlienBackstoryDef Anneli_ShrewdWorm / baseDesc -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_ShrewdWorm"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] — [TODO] childhood lore for Anneli_ShrewdWorm.</baseDesc>
+    </value>
+  </Operation>
+
+  <!-- TODO: AlienRace.AlienBackstoryDef Anneli_ImitatingWorm / title -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_ImitatingWorm"]/title</xpath>
+    <value>
+      <title>[TODO] Anneli_ImitatingWorm childhood title</title>
+    </value>
+  </Operation>
+
+  <!-- TODO: AlienRace.AlienBackstoryDef Anneli_ImitatingWorm / titleShort -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_ImitatingWorm"]/titleShort</xpath>
+    <value>
+      <titleShort>[TODO] Anneli_ImitatingWorm short title</titleShort>
+    </value>
+  </Operation>
+
+  <!-- TODO: AlienRace.AlienBackstoryDef Anneli_ImitatingWorm / baseDesc -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_ImitatingWorm"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] — [TODO] childhood lore for Anneli_ImitatingWorm.</baseDesc>
+    </value>
+  </Operation>
+
+  <!-- TODO: AlienRace.AlienBackstoryDef Anneli_BizarreWorm / title -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_BizarreWorm"]/title</xpath>
+    <value>
+      <title>[TODO] Anneli_BizarreWorm childhood title</title>
+    </value>
+  </Operation>
+
+  <!-- TODO: AlienRace.AlienBackstoryDef Anneli_BizarreWorm / titleShort -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_BizarreWorm"]/titleShort</xpath>
+    <value>
+      <titleShort>[TODO] Anneli_BizarreWorm short title</titleShort>
+    </value>
+  </Operation>
+
+  <!-- TODO: AlienRace.AlienBackstoryDef Anneli_BizarreWorm / baseDesc -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_BizarreWorm"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] — [TODO] childhood lore for Anneli_BizarreWorm.</baseDesc>
+    </value>
+  </Operation>
+
+  <!-- TODO: AlienRace.AlienBackstoryDef Anneli_HoardingWorm / title -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_HoardingWorm"]/title</xpath>
+    <value>
+      <title>[TODO] Anneli_HoardingWorm childhood title</title>
+    </value>
+  </Operation>
+
+  <!-- TODO: AlienRace.AlienBackstoryDef Anneli_HoardingWorm / titleShort -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_HoardingWorm"]/titleShort</xpath>
+    <value>
+      <titleShort>[TODO] Anneli_HoardingWorm short title</titleShort>
+    </value>
+  </Operation>
+
+  <!-- TODO: AlienRace.AlienBackstoryDef Anneli_HoardingWorm / baseDesc -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_HoardingWorm"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] — [TODO] childhood lore for Anneli_HoardingWorm.</baseDesc>
+    </value>
+  </Operation>
+
+  <!-- TODO: AlienRace.AlienBackstoryDef Anneli_CatWorm / title -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_CatWorm"]/title</xpath>
+    <value>
+      <title>[TODO] Anneli_CatWorm childhood title</title>
+    </value>
+  </Operation>
+
+  <!-- TODO: AlienRace.AlienBackstoryDef Anneli_CatWorm / titleShort -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_CatWorm"]/titleShort</xpath>
+    <value>
+      <titleShort>[TODO] Anneli_CatWorm short title</titleShort>
+    </value>
+  </Operation>
+
+  <!-- TODO: AlienRace.AlienBackstoryDef Anneli_CatWorm / baseDesc -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_CatWorm"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] — [TODO] childhood lore for Anneli_CatWorm.</baseDesc>
+    </value>
+  </Operation>
+
+  <!-- TODO: AlienRace.AlienBackstoryDef Anneli_AutisticWorm / title -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_AutisticWorm"]/title</xpath>
+    <value>
+      <title>[TODO] Anneli_AutisticWorm childhood title</title>
+    </value>
+  </Operation>
+
+  <!-- TODO: AlienRace.AlienBackstoryDef Anneli_AutisticWorm / titleShort -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_AutisticWorm"]/titleShort</xpath>
+    <value>
+      <titleShort>[TODO] Anneli_AutisticWorm short title</titleShort>
+    </value>
+  </Operation>
+
+  <!-- TODO: AlienRace.AlienBackstoryDef Anneli_AutisticWorm / baseDesc -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_AutisticWorm"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] — [TODO] childhood lore for Anneli_AutisticWorm.</baseDesc>
+    </value>
+  </Operation>
+
+  <!-- TODO: AlienRace.AlienBackstoryDef Anneli_ZealousWorm / title -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_ZealousWorm"]/title</xpath>
+    <value>
+      <title>[TODO] Anneli_ZealousWorm childhood title</title>
+    </value>
+  </Operation>
+
+  <!-- TODO: AlienRace.AlienBackstoryDef Anneli_ZealousWorm / titleShort -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_ZealousWorm"]/titleShort</xpath>
+    <value>
+      <titleShort>[TODO] Anneli_ZealousWorm short title</titleShort>
+    </value>
+  </Operation>
+
+  <!-- TODO: AlienRace.AlienBackstoryDef Anneli_ZealousWorm / baseDesc -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_ZealousWorm"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] — [TODO] childhood lore for Anneli_ZealousWorm.</baseDesc>
+    </value>
+  </Operation>
+
+  <!-- TODO: AlienRace.AlienBackstoryDef Anneli_MedicalWorm / title -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_MedicalWorm"]/title</xpath>
+    <value>
+      <title>[TODO] Anneli_MedicalWorm childhood title</title>
+    </value>
+  </Operation>
+
+  <!-- TODO: AlienRace.AlienBackstoryDef Anneli_MedicalWorm / titleShort -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_MedicalWorm"]/titleShort</xpath>
+    <value>
+      <titleShort>[TODO] Anneli_MedicalWorm short title</titleShort>
+    </value>
+  </Operation>
+
+  <!-- TODO: AlienRace.AlienBackstoryDef Anneli_MedicalWorm / baseDesc -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_MedicalWorm"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] — [TODO] childhood lore for Anneli_MedicalWorm.</baseDesc>
+    </value>
+  </Operation>
+
+  <!-- TODO: AlienRace.AlienBackstoryDef Anneli_CheesyWorm / title -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_CheesyWorm"]/title</xpath>
+    <value>
+      <title>[TODO] Anneli_CheesyWorm childhood title</title>
+    </value>
+  </Operation>
+
+  <!-- TODO: AlienRace.AlienBackstoryDef Anneli_CheesyWorm / titleShort -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_CheesyWorm"]/titleShort</xpath>
+    <value>
+      <titleShort>[TODO] Anneli_CheesyWorm short title</titleShort>
+    </value>
+  </Operation>
+
+  <!-- TODO: AlienRace.AlienBackstoryDef Anneli_CheesyWorm / baseDesc -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_CheesyWorm"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] — [TODO] childhood lore for Anneli_CheesyWorm.</baseDesc>
+    </value>
+  </Operation>
+
+  <!-- TODO: AlienRace.AlienBackstoryDef Anneli_BookWorm / title -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_BookWorm"]/title</xpath>
+    <value>
+      <title>[TODO] Anneli_BookWorm childhood title</title>
+    </value>
+  </Operation>
+
+  <!-- TODO: AlienRace.AlienBackstoryDef Anneli_BookWorm / titleShort -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_BookWorm"]/titleShort</xpath>
+    <value>
+      <titleShort>[TODO] Anneli_BookWorm short title</titleShort>
+    </value>
+  </Operation>
+
+  <!-- TODO: AlienRace.AlienBackstoryDef Anneli_BookWorm / baseDesc -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_BookWorm"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] — [TODO] childhood lore for Anneli_BookWorm.</baseDesc>
+    </value>
+  </Operation>
+
+  <!-- TODO: AlienRace.AlienBackstoryDef Anneli_DOSWorm / title -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_DOSWorm"]/title</xpath>
+    <value>
+      <title>[TODO] Anneli_DOSWorm childhood title</title>
+    </value>
+  </Operation>
+
+  <!-- TODO: AlienRace.AlienBackstoryDef Anneli_DOSWorm / titleShort -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_DOSWorm"]/titleShort</xpath>
+    <value>
+      <titleShort>[TODO] Anneli_DOSWorm short title</titleShort>
+    </value>
+  </Operation>
+
+  <!-- TODO: AlienRace.AlienBackstoryDef Anneli_DOSWorm / baseDesc -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_DOSWorm"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] — [TODO] childhood lore for Anneli_DOSWorm.</baseDesc>
+    </value>
+  </Operation>
+</Patch>
