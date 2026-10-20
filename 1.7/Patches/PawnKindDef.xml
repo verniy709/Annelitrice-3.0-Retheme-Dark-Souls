@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
-  <!-- TODO: PawnKindDef Anneli_Larva / label -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/PawnKindDef[defName="Anneli_Larva"]/label</xpath>
     <value>
-      <label>[TODO] Larva pawn kind</label>
+      <label>annelitrice Humanity</label>
     </value>
   </Operation>
 
-  <!-- Enlarge the rethemed larva body graphic. -->
+  <!-- Enlarge the larva graphic. -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/PawnKindDef[defName="Anneli_Larva"]/lifeStages/li/bodyGraphicData/drawSize</xpath>
     <value>
@@ -16,7 +15,7 @@
     </value>
   </Operation>
 
-  <!-- This retheme supplies larva variants 0-5 only. Remove the three unused base variants. -->
+  <!-- This retheme has variants 0-5 only. Remove the 3 unused base variants. -->
   <Operation Class="PatchOperationRemove">
     <xpath>Defs/PawnKindDef[defName="Anneli_Larva"]/alternateGraphics/li[texPath="Anneli_Larva/Larva6"]</xpath>
   </Operation>

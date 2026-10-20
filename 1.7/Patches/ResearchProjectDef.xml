@@ -1,50 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
-  <!-- TODO: ResearchProjectDef Anneli_Fountain / label -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ResearchProjectDef[defName="Anneli_Fountain"]/label</xpath>
     <value>
-      <label>[TODO] Anneli_Fountain research name</label>
+      <label>annelitrice Bonfire</label>
     </value>
   </Operation>
 
-  <!-- TODO: ResearchProjectDef Anneli_Fountain / description -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ResearchProjectDef[defName="Anneli_Fountain"]/description</xpath>
     <value>
-      <description>[TODO] Anneli_Fountain research description.</description>
+      <description>An anchor of ash and twisted iron for annelitrice undeads recipes, including transmog apparel, ash-related items, and annelitrice Souls.</description>
     </value>
   </Operation>
 
-  <!-- TODO: ResearchProjectDef Anneli_NutrientSolution / label -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ResearchProjectDef[defName="Anneli_NutrientSolution"]/label</xpath>
     <value>
-      <label>[TODO] Anneli_NutrientSolution research name</label>
+      <label>annelitrice Soul</label>
     </value>
   </Operation>
 
-  <!-- TODO: ResearchProjectDef Anneli_NutrientSolution / description -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ResearchProjectDef[defName="Anneli_NutrientSolution"]/description</xpath>
     <value>
-      <description>[TODO] Anneli_NutrientSolution research description.</description>
+      <description>The lingering essence drawn from living things. To most, consuming a soul is a deeply unnatural act, bringing nausea, fevered visions, and violent shocks to the mind. An annelitrice undeads can take Souls into themselves without harm, as creatures digest food.</description>
     </value>
   </Operation>
 
-  <!-- TODO: ResearchProjectDef Anneli_PuppetTheatre / label -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ResearchProjectDef[defName="Anneli_PuppetTheatre"]/label</xpath>
     <value>
-      <label>[TODO] Anneli_PuppetTheatre research name</label>
+      <label>annelitrice painted world</label>
     </value>
   </Operation>
 
-  <!-- TODO: ResearchProjectDef Anneli_PuppetTheatre / description -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ResearchProjectDef[defName="Anneli_PuppetTheatre"]/description</xpath>
     <value>
-      <description>[TODO] Anneli_PuppetTheatre research description.</description>
+      <description>A small world of painted towers and snow-covered forest. Those within know they are watched by beings beyond the frame, yet fear has taught them silence. They live out their little lives beneath that gaze, pretending not to notice the eyes above.</description>
     </value>
   </Operation>
 </Patch>

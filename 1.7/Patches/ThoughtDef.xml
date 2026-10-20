@@ -1,30 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
-  <!-- TODO: ThoughtDef OthersDrinkNutrientSolution / stage label and description -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThoughtDef[defName="OthersDrinkNutrientSolution"]/stages/li/label</xpath>
     <value>
-      <label>[TODO] OthersDrinkNutrientSolution thought</label>
+      <label>fed-on Souls</label>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThoughtDef[defName="OthersDrinkNutrientSolution"]/stages/li/description</xpath>
     <value>
-      <description>[TODO] OthersDrinkNutrientSolution thought description.</description>
+      <description>I can still feel someone else's life echoing in my head.</description>
     </value>
   </Operation>
 
-  <!-- TODO: ThoughtDef AnneliDrinkNutrientSolution / stage label and description -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThoughtDef[defName="AnneliDrinkNutrientSolution"]/stages/li/label</xpath>
     <value>
-      <label>[TODO] AnneliDrinkNutrientSolution thought</label>
+      <label>fed-on Souls</label>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThoughtDef[defName="AnneliDrinkNutrientSolution"]/stages/li/description</xpath>
     <value>
-      <description>[TODO] AnneliDrinkNutrientSolution thought description.</description>
+      <description>Another Soul has become part of me.</description>
     </value>
   </Operation>
 </Patch>

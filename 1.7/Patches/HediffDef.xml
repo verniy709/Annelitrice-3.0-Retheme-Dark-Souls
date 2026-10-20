@@ -1,58 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
-  <!-- TODO: HediffDef Anneli_Infection / label -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/HediffDef[defName="Anneli_Infection"]/label</xpath>
     <value>
-      <label>[TODO] Anneli_Infection label</label>
+      <label>annelitrice Darksign</label>
     </value>
   </Operation>
 
-  <!-- TODO: HediffDef Anneli_Infection / labelNoun -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/HediffDef[defName="Anneli_Infection"]/labelNoun</xpath>
     <value>
-      <labelNoun>[TODO] Anneli_Infection labelNoun</labelNoun>
+      <labelNoun>annelitrice Darksign</labelNoun>
     </value>
   </Operation>
 
-  <!-- TODO: HediffDef Anneli_Infection / description -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/HediffDef[defName="Anneli_Infection"]/description</xpath>
     <value>
-      <description>[TODO] Anneli_Infection description.</description>
-    </value>
-  </Operation>
-
-  <!-- TODO: HediffDef Anneli_Infection / stages/li[1]/label -->
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/HediffDef[defName="Anneli_Infection"]/stages/li[1]/label</xpath>
-    <value>
-      <label>[TODO] Infection stage 1</label>
-    </value>
-  </Operation>
-
-  <!-- TODO: HediffDef Anneli_Infection / stages/li[2]/label -->
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/HediffDef[defName="Anneli_Infection"]/stages/li[2]/label</xpath>
-    <value>
-      <label>[TODO] Infection stage 2</label>
-    </value>
-  </Operation>
-
-  <!-- TODO: HediffDef Anneli_Infection / stages/li[3]/label -->
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/HediffDef[defName="Anneli_Infection"]/stages/li[3]/label</xpath>
-    <value>
-      <label>[TODO] Infection stage 3</label>
-    </value>
-  </Operation>
-
-  <!-- TODO: HediffDef Anneli_Infection / stages/li[4]/label -->
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/HediffDef[defName="Anneli_Infection"]/stages/li[4]/label</xpath>
-    <value>
-      <label>[TODO] Infection stage 4</label>
+      <description>This hediff causes Humanity to gather within the victim and some Ashes are shed each day. In time, these remnants kindle into new undead annelitrice bound to the player's faction.</description>
     </value>
   </Operation>
 </Patch>

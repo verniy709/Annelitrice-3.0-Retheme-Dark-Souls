@@ -1,130 +1,115 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
-  <!-- TODO: ThingDef AnnelitriceLarvaAsAnimal / label -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="AnnelitriceLarvaAsAnimal"]/label</xpath>
     <value>
-      <label>[TODO] Larva creature name</label>
+      <label>annelitrice Humanity</label>
     </value>
   </Operation>
 
-  <!-- TODO: ThingDef AnnelitriceLarvaAsAnimal / description -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="AnnelitriceLarvaAsAnimal"]/description</xpath>
     <value>
-      <description>[TODO] Larva creature description.</description>
+      <description>Annelitrice undeads are bound by a curse that denies them a proper death. When slain, their flesh collapses into Ash, yet Humanity lingers within the remains. Their bodies are frail things, easily broken but strangely difficult to destroy completely.\n\nThe curse does not remain with its bearer alone. An annelitrice undead may imprint the Darksign upon another humanoid, causing Humanity to gather within the victim until fragments of remembering Ashes are cast off. From these remnants emerge small, wandering phantoms of Humanity. Fed upon souls, the Humanities gradually take form and awaken once more in human shape.\n\nThey tend to gather in strange, insular groups. With much of their former lives lost to the curse, these communities are often built around half-remembered stories, faded identities, or whatever books, relics, and fragments of the past happen to remain in their possession.\n\nSelect an Annelitrice Soul to kindle Ashes or restore a fallen annelitrice undeads to life. A Bonfire can be used to automate both rites.</description>
     </value>
   </Operation>
 
-  <!-- TODO: ThingDef Anneli_Fountain / label -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Anneli_Fountain"]/label</xpath>
     <value>
-      <label>[TODO] Anneli_Fountain name</label>
+      <label>annelitrice Bonfire</label>
     </value>
   </Operation>
 
-  <!-- TODO: ThingDef Anneli_Fountain / description -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Anneli_Fountain"]/description</xpath>
     <value>
-      <description>[TODO] Anneli_Fountain lore description.</description>
+      <description>An anchor of ash and twisted iron for annelitrice undeads recipes, including transmog apparel, ash-related items, and annelitrice Souls.</description>
     </value>
   </Operation>
 
-  <!-- TODO: ThingDef Anneli_PuppetTheatre / label -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Anneli_PuppetTheatre"]/label</xpath>
     <value>
-      <label>[TODO] Anneli_PuppetTheatre name</label>
+      <label>annelitrice painted world</label>
     </value>
   </Operation>
 
-  <!-- TODO: ThingDef Anneli_PuppetTheatre / description -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Anneli_PuppetTheatre"]/description</xpath>
     <value>
-      <description>[TODO] Anneli_PuppetTheatre lore description.</description>
+      <description>A small world of painted towers and snow-covered forest. Those within know they are watched by beings beyond the frame, yet fear has taught them silence. They live out their little lives beneath that gaze, pretending not to notice the eyes above.</description>
     </value>
   </Operation>
 
-  <!-- TODO: ThingDef Anneli_Anthelmintic / label -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Anneli_Anthelmintic"]/label</xpath>
     <value>
-      <label>[TODO] Anneli_Anthelmintic name</label>
+      <label>annelitrice blooming moss</label>
     </value>
   </Operation>
 
-  <!-- TODO: ThingDef Anneli_Anthelmintic / description -->
+  <!-- ToDo -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Anneli_Anthelmintic"]/description</xpath>
     <value>
-      <description>[TODO] Anneli_Anthelmintic lore description.</description>
+      <description>ToDo.</description>
     </value>
   </Operation>
 
-  <!-- TODO: ThingDef Anneli_ColonistEgg / label -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Anneli_ColonistEgg"]/label</xpath>
     <value>
-      <label>[TODO] Anneli_ColonistEgg name</label>
+      <label>annelitrice companion Ashes</label>
     </value>
   </Operation>
 
-  <!-- TODO: ThingDef Anneli_ColonistEgg / description -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Anneli_ColonistEgg"]/description</xpath>
     <value>
-      <description>[TODO] Anneli_ColonistEgg lore description.</description>
+      <description>Ashes of the familiar.</description>
     </value>
   </Operation>
 
-  <!-- TODO: ThingDef Anneli_OutsiderEgg / label -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Anneli_OutsiderEgg"]/label</xpath>
     <value>
-      <label>[TODO] Anneli_OutsiderEgg name</label>
+      <label>annelitrice Ashes</label>
     </value>
   </Operation>
 
-  <!-- TODO: ThingDef Anneli_OutsiderEgg / description -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Anneli_OutsiderEgg"]/description</xpath>
     <value>
-      <description>[TODO] Anneli_OutsiderEgg lore description.</description>
+      <description>Ashes of the forgotten.</description>
     </value>
   </Operation>
 
-  <!-- TODO: ThingDef Anneli_NutrientSolution / label -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Anneli_NutrientSolution"]/label</xpath>
     <value>
-      <label>[TODO] Anneli_NutrientSolution name</label>
+      <label>annelitrice Soul</label>
     </value>
   </Operation>
 
-  <!-- TODO: ThingDef Anneli_NutrientSolution / description -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Anneli_NutrientSolution"]/description</xpath>
     <value>
-      <description>[TODO] Anneli_NutrientSolution lore description.</description>
+      <description>The lingering essence drawn from living things. To most, consuming a soul is a deeply unnatural act, bringing nausea, fevered visions, and violent shocks to the mind. Annelitrice undeads can take Souls into themselves without harm, as creatures digest food.</description>
     </value>
   </Operation>
 
-  <!-- TODO: ThingDef Anneli_Pupa / label -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Anneli_Pupa"]/label</xpath>
     <value>
-      <label>[TODO] Anneli_Pupa name</label>
+      <label>annelitrice Human Effigy</label>
     </value>
   </Operation>
 
-  <!-- TODO: ThingDef Anneli_Pupa / description -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Anneli_Pupa"]/description</xpath>
     <value>
-      <description>[TODO] Anneli_Pupa lore description.</description>
+      <description>A warm, shadow-like effigy in the shape of a person. It is not yet truly alive, but the form is nearly complete.</description>
     </value>
   </Operation>
 
@@ -178,7 +163,6 @@
     </value>
   </Operation>
 
-  <!-- The larva's ThingDef is AnnelitriceLarvaAsAnimal, not PawnKindDef Anneli_Larva. -->
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/ThingDef[defName="AnnelitriceLarvaAsAnimal"]</xpath>
     <value>
