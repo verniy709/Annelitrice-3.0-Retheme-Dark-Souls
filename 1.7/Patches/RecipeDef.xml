@@ -70,7 +70,7 @@
     </value>
   </Operation>
 
-  <!-- Butchering one egg yields only five nutrient solution. -->
+  <!-- Butchery yields Anneli_NutrientSolution -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/RecipeDef[defName="ButcherAnneliEggs"]/products</xpath>
     <value>

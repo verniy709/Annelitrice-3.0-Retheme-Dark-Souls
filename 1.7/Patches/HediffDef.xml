@@ -17,7 +17,7 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/HediffDef[defName="Anneli_Infection"]/description</xpath>
     <value>
-      <description>This hediff causes Humanity to gather within the victim and some Ashes are shed each day. In time, these remnants kindle into new undead annelitrice bound to the player's faction.</description>
+      <description>This hediff causes Humanity to gather within the victim and some Ashes are shed each day. Fed on souls, these remnants kindle into new undead annelitrice bound to the player's faction.</description>
     </value>
   </Operation>
 </Patch>
