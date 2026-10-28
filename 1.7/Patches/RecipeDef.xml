@@ -3,7 +3,7 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/RecipeDef[defName="Cure_Anneli_Infection"]/label</xpath>
     <value>
-      <label>Release the annelitrice Darksign</label>
+      <label>release the annelitrice Darksign</label>
     </value>
   </Operation>
 
