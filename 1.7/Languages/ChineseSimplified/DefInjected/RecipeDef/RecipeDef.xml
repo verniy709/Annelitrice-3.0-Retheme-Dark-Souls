@@ -5,9 +5,20 @@
   <Cure_Anneli_Infection.jobString>正在解除安妮莉黑暗之环。</Cure_Anneli_Infection.jobString>
   <Cure_Anneli_Infection.successfullyRemovedHediffMessage>{0}成功解除了{1}的安妮莉黑暗之环。</Cure_Anneli_Infection.successfullyRemovedHediffMessage>
   <HatchAnneliEggs.label>唤醒安妮莉人性</HatchAnneliEggs.label>
-  <HatchAnneliEggs.description>唤醒安妮莉人性。</HatchAnneliEggs.description>
+  <HatchAnneliEggs.description>从灰烬中唤醒安妮莉人性。</HatchAnneliEggs.description>
   <ButcherAnneliEggs.label>研磨安妮莉灰烬</ButcherAnneliEggs.label>
   <CremateAnneliEggs.label>焚毁安妮莉灰烬</CremateAnneliEggs.label>
   <Anneli_AnthelminticAnneliEggs.label>annelitrice blooming moss production</Anneli_AnthelminticAnneliEggs.label>
   <Anneli_AnthelminticAnneliEggs.description>Annelitrice blooming moss production.</Anneli_AnthelminticAnneliEggs.description>
+  <ResurrectAnneliCorpse.label>复活安妮莉不死人</ResurrectAnneliCorpse.label>
+  <ResurrectAnneliCorpse.description>使用一份安妮莉灵魂，使倒下的安妮莉不死人复生。</ResurrectAnneliCorpse.description>
+  <ResurrectAnneliCorpse.jobString>正在复活安妮莉不死人。</ResurrectAnneliCorpse.jobString>
+  <HatchAnneliEggs.jobString>正在唤醒安妮莉人性。</HatchAnneliEggs.jobString>
+  <ButcherAnneliEggs.description>将安妮莉灰烬研磨成五份灵魂。</ButcherAnneliEggs.description>
+  <ButcherAnneliEggs.jobString>正在研磨安妮莉灰烬。</ButcherAnneliEggs.jobString>
+  <CremateAnneliEggs.description>用火焚毁安妮莉灰烬。</CremateAnneliEggs.description>
+  <CremateAnneliEggs.jobString>正在焚毁安妮莉灰烬。</CremateAnneliEggs.jobString>
+  <Anneli_MakeNutrientSolution.label>提取安妮莉灵魂</Anneli_MakeNutrientSolution.label>
+  <Anneli_MakeNutrientSolution.description>从有机质中提取灵魂。</Anneli_MakeNutrientSolution.description>
+  <Anneli_MakeNutrientSolution.jobString>正在提取安妮莉灵魂。</Anneli_MakeNutrientSolution.jobString>
 </LanguageData>

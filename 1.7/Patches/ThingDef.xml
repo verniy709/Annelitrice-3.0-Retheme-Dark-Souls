@@ -3,28 +3,28 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="AnnelitriceLarvaAsAnimal"]/label</xpath>
     <value>
-      <label>annelitrice Humanity</label>
+      <label>annelitrice humanity</label>
     </value>
   </Operation>
 
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="AnnelitriceLarvaAsAnimal"]/description</xpath>
     <value>
-      <description>Annelitrice undeads are bound by a curse that denies them a proper death. When slain, their flesh collapses into Ash, yet Humanity lingers within the remains. Their bodies are frail things, easily broken but strangely difficult to destroy completely.\n\nThe curse does not remain with its bearer alone. An annelitrice undead may imprint the Darksign upon another humanoid, causing Humanity to gather within the victim until fragments of remembering Ashes are cast off. From these remnants emerge small, wandering phantoms of Humanity. Fed upon souls, the Humanities gradually take form and awaken once more in human shape.\n\nThey tend to gather in strange, insular groups. With much of their former lives lost to the curse, these communities are often built around half-remembered stories, faded identities, or whatever books, relics, and fragments of the past happen to remain in their possession.\n\nSelect an Annelitrice Soul to kindle Ashes or restore a fallen annelitrice undeads to life. A Bonfire can be used to automate both rites.</description>
+      <description>Annelitrice Undead are bound by a curse that denies them a proper death. When slain, their flesh collapses into Ashes, yet Humanity lingers within the remains. Their bodies are frail, easily broken but strangely difficult to destroy completely.\n\nThe curse does not remain with its bearer alone. An Annelitrice Undead may imprint the Darksign on another humanoid, causing Humanity to gather within the victim until Ashes carrying fragments of memory are shed. From these remnants emerge small, wandering phantoms of Humanity. Fed on Souls, these fragments of Humanity gradually take form and awaken once more in human shape.\n\nThey tend to gather in strange, insular groups. With much of their former lives lost to the curse, these communities are often built around half-remembered stories, faded identities, or whatever books, relics, and fragments of the past happen to remain in their possession.\n\nUse an Annelitrice Soul to kindle Ashes or restore a fallen Annelitrice Undead to life. A Bonfire can automate both rites.</description>
     </value>
   </Operation>
 
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Anneli_Fountain"]/label</xpath>
     <value>
-      <label>annelitrice Bonfire</label>
+      <label>annelitrice bonfire</label>
     </value>
   </Operation>
 
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Anneli_Fountain"]/description</xpath>
     <value>
-      <description>An anchor of ash and twisted iron for annelitrice undeads recipes, including transmog apparel, ash-related items, and annelitrice Souls.</description>
+      <description>An anchor of Ashes and twisted iron where Annelitrice Undead can craft transmog apparel, items made from Ashes, and Annelitrice Souls.</description>
     </value>
   </Operation>
 
@@ -38,7 +38,7 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Anneli_PuppetTheatre"]/description</xpath>
     <value>
-      <description>A small world of painted towers and snow-covered forest. Those within know they are watched by beings beyond the frame, yet fear has taught them silence. They live out their little lives beneath that gaze, pretending not to notice the eyes above.</description>
+      <description>A small Painted World of towers and snow-covered forests. Those within know they are watched by beings beyond the frame, yet fear has taught them silence. They live out their little lives beneath that gaze, pretending not to notice the eyes above.</description>
     </value>
   </Operation>
 
@@ -60,7 +60,7 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Anneli_ColonistEgg"]/label</xpath>
     <value>
-      <label>annelitrice companion Ashes</label>
+      <label>annelitrice companion ashes</label>
     </value>
   </Operation>
 
@@ -74,7 +74,7 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Anneli_OutsiderEgg"]/label</xpath>
     <value>
-      <label>annelitrice Ashes</label>
+      <label>annelitrice ashes</label>
     </value>
   </Operation>
 
@@ -88,21 +88,21 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Anneli_NutrientSolution"]/label</xpath>
     <value>
-      <label>annelitrice Soul</label>
+      <label>annelitrice soul</label>
     </value>
   </Operation>
 
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Anneli_NutrientSolution"]/description</xpath>
     <value>
-      <description>The lingering essence drawn from living things. To most, consuming a soul is a deeply unnatural act, bringing nausea, fevered visions, and violent shocks to the mind. Annelitrice undeads can take Souls into themselves without harm, as creatures digest food.</description>
+      <description>The lingering essence drawn from living things. To most, consuming a Soul is a deeply unnatural act, bringing nausea, fevered visions, and violent shocks to the mind. Annelitrice Undead can take Souls into themselves without harm, as living creatures digest food.</description>
     </value>
   </Operation>
 
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Anneli_Pupa"]/label</xpath>
     <value>
-      <label>annelitrice Human Effigy</label>
+      <label>annelitrice human effigy</label>
     </value>
   </Operation>
 
@@ -172,4 +172,11 @@
       </butcherProducts>
     </value>
   </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Anneli_NutrientSolution"]/comps/li[@Class="CompProperties_Usable"]/useLabel</xpath>
+    <value>
+      <useLabel>use annelitrice soul</useLabel>
+    </value>
+  </Operation>
+
 </Patch>

@@ -10,14 +10,14 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/AbilityDef[defName="Anneli_Infest"]/label</xpath>
     <value>
-      <label>share the Darksign</label>
+      <label>share the darksign</label>
     </value>
   </Operation>
 
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/AbilityDef[defName="Anneli_Infest"]/description</xpath>
     <value>
-      <description>Imprint the accursed sign upon another humanoid. The curse will take root within them, and in time their flesh will leave behind accursed ashes.</description>
+      <description>Imprint the Darksign on another humanoid. The curse will take root within them, and in time their flesh will leave behind accursed Ashes.</description>
     </value>
   </Operation>
 </Patch>

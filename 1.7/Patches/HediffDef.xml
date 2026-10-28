@@ -3,21 +3,21 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/HediffDef[defName="Anneli_Infection"]/label</xpath>
     <value>
-      <label>annelitrice Darksign</label>
+      <label>annelitrice darksign</label>
     </value>
   </Operation>
 
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/HediffDef[defName="Anneli_Infection"]/labelNoun</xpath>
     <value>
-      <labelNoun>annelitrice Darksign</labelNoun>
+      <labelNoun>annelitrice darksign</labelNoun>
     </value>
   </Operation>
 
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/HediffDef[defName="Anneli_Infection"]/description</xpath>
     <value>
-      <description>This hediff causes Humanity to gather within the victim and some Ashes are shed each day. Fed on souls, these remnants kindle into new undead annelitrice bound to the player's faction.</description>
+      <description>The Darksign causes Humanity to gather within the victim, who sheds Ashes each day. Fed on Souls, these remnants kindle into new Annelitrice Undead belonging to the player's faction.</description>
     </value>
   </Operation>
 </Patch>

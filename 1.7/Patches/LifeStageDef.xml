@@ -3,7 +3,7 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/LifeStageDef[defName="Anneli_Larva"]/label</xpath>
     <value>
-      <label>annelitrice Humanity</label>
+      <label>annelitrice humanity</label>
     </value>
   </Operation>
 </Patch>

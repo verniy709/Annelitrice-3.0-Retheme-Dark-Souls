@@ -3,7 +3,7 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThoughtDef[defName="OthersDrinkNutrientSolution"]/stages/li/label</xpath>
     <value>
-      <label>fed-on Souls</label>
+      <label>fed on souls</label>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
@@ -16,7 +16,7 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThoughtDef[defName="AnneliDrinkNutrientSolution"]/stages/li/label</xpath>
     <value>
-      <label>fed-on Souls</label>
+      <label>fed on souls</label>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">

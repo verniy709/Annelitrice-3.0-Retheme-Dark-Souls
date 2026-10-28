@@ -3,28 +3,28 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ResearchProjectDef[defName="Anneli_Fountain"]/label</xpath>
     <value>
-      <label>annelitrice Bonfire</label>
+      <label>annelitrice bonfire</label>
     </value>
   </Operation>
 
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ResearchProjectDef[defName="Anneli_Fountain"]/description</xpath>
     <value>
-      <description>An anchor of ash and twisted iron for annelitrice undeads recipes, including transmog apparel, ash-related items, and annelitrice Souls.</description>
+      <description>An anchor of Ashes and twisted iron where Annelitrice Undead can craft transmog apparel, items made from Ashes, and Annelitrice Souls.</description>
     </value>
   </Operation>
 
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ResearchProjectDef[defName="Anneli_NutrientSolution"]/label</xpath>
     <value>
-      <label>annelitrice Soul</label>
+      <label>annelitrice soul</label>
     </value>
   </Operation>
 
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ResearchProjectDef[defName="Anneli_NutrientSolution"]/description</xpath>
     <value>
-      <description>The lingering essence drawn from living things. To most, consuming a soul is a deeply unnatural act, bringing nausea, fevered visions, and violent shocks to the mind. An annelitrice undeads can take Souls into themselves without harm, as creatures digest food.</description>
+      <description>The lingering essence drawn from living things. To most, consuming a Soul is a deeply unnatural act, bringing nausea, fevered visions, and violent shocks to the mind. Annelitrice Undead can take Souls into themselves without harm, as living creatures digest food.</description>
     </value>
   </Operation>
 
@@ -38,7 +38,7 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ResearchProjectDef[defName="Anneli_PuppetTheatre"]/description</xpath>
     <value>
-      <description>A small world of painted towers and snow-covered forest. Those within know they are watched by beings beyond the frame, yet fear has taught them silence. They live out their little lives beneath that gaze, pretending not to notice the eyes above.</description>
+      <description>A small Painted World of towers and snow-covered forests. Those within know they are watched by beings beyond the frame, yet fear has taught them silence. They live out their little lives beneath that gaze, pretending not to notice the eyes above.</description>
     </value>
   </Operation>
 </Patch>

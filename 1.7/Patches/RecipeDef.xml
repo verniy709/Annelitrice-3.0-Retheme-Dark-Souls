@@ -3,56 +3,56 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/RecipeDef[defName="Cure_Anneli_Infection"]/label</xpath>
     <value>
-      <label>Release the annelitrice Darksign</label>
+      <label>remove the annelitrice darksign</label>
     </value>
   </Operation>
 
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/RecipeDef[defName="Cure_Anneli_Infection"]/description</xpath>
     <value>
-      <description>This medical operation releases the annelitrice Darksign.</description>
+      <description>This medical operation removes the Annelitrice Darksign.</description>
     </value>
   </Operation>
 
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/RecipeDef[defName="Cure_Anneli_Infection"]/jobString</xpath>
     <value>
-      <jobString>Curing annelitrice Darksign.</jobString>
+      <jobString>Removing the Annelitrice Darksign.</jobString>
     </value>
   </Operation>
 
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/RecipeDef[defName="Cure_Anneli_Infection"]/successfullyRemovedHediffMessage</xpath>
     <value>
-      <successfullyRemovedHediffMessage>{0} has successfully cured {1}'s annelitrice Darksign.</successfullyRemovedHediffMessage>
+      <successfullyRemovedHediffMessage>{0} has removed {1}'s Annelitrice Darksign.</successfullyRemovedHediffMessage>
     </value>
   </Operation>
 
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/RecipeDef[defName="HatchAnneliEggs"]/label</xpath>
     <value>
-      <label>awaken the annelitrice Humanities</label>
+      <label>awaken annelitrice humanity</label>
     </value>
   </Operation>
 
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/RecipeDef[defName="HatchAnneliEggs"]/description</xpath>
     <value>
-      <description>Awaken the annelitrice Humanities.</description>
+      <description>Awaken Annelitrice Humanity from Ashes.</description>
     </value>
   </Operation>
 
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/RecipeDef[defName="ButcherAnneliEggs"]/label</xpath>
     <value>
-      <label>grind annelitrice Ashes</label>
+      <label>grind annelitrice ashes</label>
     </value>
   </Operation>
 
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/RecipeDef[defName="CremateAnneliEggs"]/label</xpath>
     <value>
-      <label>cremate annelitrice Ashes</label>
+      <label>cremate annelitrice ashes</label>
     </value>
   </Operation>
 
@@ -79,4 +79,81 @@
       </products>
     </value>
   </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="ResurrectAnneliCorpse"]/label</xpath>
+    <value>
+      <label>revive an annelitrice undead</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="ResurrectAnneliCorpse"]/description</xpath>
+    <value>
+      <description>Use an Annelitrice Soul to revive a fallen Annelitrice Undead.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="ResurrectAnneliCorpse"]/jobString</xpath>
+    <value>
+      <jobString>Reviving an Annelitrice Undead.</jobString>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="HatchAnneliEggs"]/jobString</xpath>
+    <value>
+      <jobString>Awakening Annelitrice Humanity.</jobString>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="ButcherAnneliEggs"]/description</xpath>
+    <value>
+      <description>Grind Annelitrice Ashes into five Souls.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="ButcherAnneliEggs"]/jobString</xpath>
+    <value>
+      <jobString>Grinding Annelitrice Ashes.</jobString>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="CremateAnneliEggs"]/description</xpath>
+    <value>
+      <description>Destroy Annelitrice Ashes in a fire.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="CremateAnneliEggs"]/jobString</xpath>
+    <value>
+      <jobString>Cremating Annelitrice Ashes.</jobString>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="Anneli_MakeNutrientSolution"]/label</xpath>
+    <value>
+      <label>extract annelitrice souls</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="Anneli_MakeNutrientSolution"]/description</xpath>
+    <value>
+      <description>Extract Souls from organic matter.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="Anneli_MakeNutrientSolution"]/jobString</xpath>
+    <value>
+      <jobString>Extracting Annelitrice Souls.</jobString>
+    </value>
+  </Operation>
+
 </Patch>
