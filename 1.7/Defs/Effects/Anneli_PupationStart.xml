@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>Anneli_Retheme_DarkSouls_AshSmoke</defName>
+    <graphicData>
+      <texPath>Anneli_Retheme_DarkSouls/Anneli_Effect/Anneli_PupationStart/Smoke</texPath>
+      <shaderType>Mote</shaderType>
+      <renderInstanced>true</renderInstanced>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0.12</fadeInTime>
+    <solidTime>1.63</solidTime>
+    <fadeOutTime>0.75</fadeOutTime>
+    <growthRate>0.17</growthRate>
+  </FleckDef>
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>Anneli_Retheme_DarkSouls_AshHaze</defName>
+    <graphicData>
+      <texPath>Anneli_Retheme_DarkSouls/Anneli_Effect/Anneli_PupationStart/Haze</texPath>
+      <shaderType>Mote</shaderType>
+      <renderInstanced>true</renderInstanced>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0.20</fadeInTime>
+    <solidTime>0.55</solidTime>
+    <fadeOutTime>0.75</fadeOutTime>
+    <growthRate>0.18</growthRate>
+  </FleckDef>
+  <FleckDef ParentName="FleckBase">
+    <defName>Anneli_Retheme_DarkSouls_HumanityShadow</defName>
+    <graphicData>
+      <texPath>Anneli_Retheme_DarkSouls/Anneli_Effect/Anneli_PupationStart/Shadow</texPath>
+      <shaderType>MoteDistorted</shaderType>
+      <shaderParameters>
+        <_distortionScrollSpeed>(0.07, 0.11, 0.0)</_distortionScrollSpeed>
+        <_distortionScale>0.35</_distortionScale>
+        <_distortionIntensity>0.09</_distortionIntensity>
+      </shaderParameters>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0</fadeInTime>
+    <solidTime>0.20</solidTime>
+    <fadeOutTime>1.00</fadeOutTime>
+    <growthRate>0.10</growthRate>
+  </FleckDef>
+  <FleckDef ParentName="FleckBase">
+    <defName>Anneli_Retheme_DarkSouls_HumanityEyes</defName>
+    <graphicData>
+      <texPath>Anneli_Retheme_DarkSouls/Anneli_Effect/Anneli_PupationStart/Eyes</texPath>
+      <shaderType>MoteGlow</shaderType>
+      <renderInstanced>true</renderInstanced>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0.14</fadeInTime>
+    <solidTime>0.28</solidTime>
+    <fadeOutTime>0.32</fadeOutTime>
+  </FleckDef>
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>Anneli_Retheme_DarkSouls_AshFragment</defName>
+    <graphicData>
+      <texPath>Anneli_Retheme_DarkSouls/Anneli_Effect/Anneli_PupationStart/Fragment</texPath>
+      <shaderType>Mote</shaderType>
+      <renderInstanced>true</renderInstanced>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0.04</fadeInTime>
+    <solidTime>0.60</solidTime>
+    <fadeOutTime>0.36</fadeOutTime>
+    <acceleration>(0, 0, -0.8)</acceleration>
+  </FleckDef>
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>Anneli_Retheme_DarkSouls_HumanityOrb</defName>
+    <graphicData>
+      <texPath>Anneli_Retheme_DarkSouls/Anneli_Effect/Anneli_PupationStart/Orb</texPath>
+      <shaderType>Mote</shaderType>
+      <renderInstanced>true</renderInstanced>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0.12</fadeInTime>
+    <solidTime>0.70</solidTime>
+    <fadeOutTime>0.55</fadeOutTime>
+  </FleckDef>
+</Defs>

@@ -20,4 +20,10 @@
       <description>Imprint the Darksign on another humanoid. The curse will take root within them, and in time their flesh will leave behind accursed Ashes.</description>
     </value>
   </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/AbilityDef[defName="Anneli_Infest"]/comps</xpath>
+    <value>
+      <li Class="Annelitrice.Retheme.DarkSouls.CompProperties_DarksignTransfer" />
+    </value>
+  </Operation>
 </Patch>

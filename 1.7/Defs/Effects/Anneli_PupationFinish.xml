@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <FleckDef ParentName="FleckBase">
+    <defName>Anneli_Retheme_DarkSouls_HatchFirestormColumn</defName>
+    <graphicData>
+      <texPath>Anneli_Retheme_DarkSouls/Anneli_Effect/Anneli_PupationFinish/FirestormColumn</texPath>
+      <shaderType>MoteDistorted</shaderType>
+      <shaderParameters>
+        <_distortionScrollSpeed>(0.06, 0.14, 0.0)</_distortionScrollSpeed>
+        <_distortionScale>0.38</_distortionScale>
+        <_distortionIntensity>0.07</_distortionIntensity>
+      </shaderParameters>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0.01</fadeInTime>
+    <solidTime>0.42</solidTime>
+    <fadeOutTime>0.67</fadeOutTime>
+    <growthRate>0.22</growthRate>
+  </FleckDef>
+  <FleckDef ParentName="FleckBase">
+    <defName>Anneli_Retheme_DarkSouls_HatchFirestormRing</defName>
+    <graphicData>
+      <texPath>Anneli_Retheme_DarkSouls/Anneli_Effect/Anneli_PupationFinish/FirestormRing</texPath>
+      <shaderType>MoteGlow</shaderType>
+      <renderInstanced>true</renderInstanced>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0.04</fadeInTime>
+    <solidTime>0.47</solidTime>
+    <fadeOutTime>0.77</fadeOutTime>
+    <growthRate>0.24</growthRate>
+  </FleckDef>
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>Anneli_Retheme_DarkSouls_HatchAfterSmoke</defName>
+    <graphicData>
+      <texPath>Anneli_Retheme_DarkSouls/Anneli_Effect/Anneli_PupationStart/Haze</texPath>
+      <shaderType>Mote</shaderType>
+      <renderInstanced>true</renderInstanced>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0.09</fadeInTime>
+    <solidTime>0.23</solidTime>
+    <fadeOutTime>1.06</fadeOutTime>
+    <growthRate>0.16</growthRate>
+  </FleckDef>
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>Anneli_Retheme_DarkSouls_HatchEmber</defName>
+    <graphicData>
+      <texPath>Anneli_Retheme_DarkSouls/Anneli_Effect/Anneli_PupationStart/HatchEmber</texPath>
+      <shaderType>MoteGlow</shaderType>
+      <renderInstanced>true</renderInstanced>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0.02</fadeInTime>
+    <solidTime>0.20</solidTime>
+    <fadeOutTime>0.55</fadeOutTime>
+  </FleckDef>
+  <FleckDef ParentName="FleckBase">
+    <defName>Anneli_Retheme_DarkSouls_HatchGlow</defName>
+    <graphicData>
+      <texPath>Anneli_Retheme_DarkSouls/Anneli_Effect/Anneli_PupationStart/HatchEmber</texPath>
+      <shaderType>MoteGlow</shaderType>
+      <renderInstanced>true</renderInstanced>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0.03</fadeInTime>
+    <solidTime>0.12</solidTime>
+    <fadeOutTime>0.50</fadeOutTime>
+    <growthRate>0.05</growthRate>
+  </FleckDef>
+</Defs>

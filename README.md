@@ -16,4 +16,8 @@ The larva has the default graphic and alternate variants 1–5 here. `1.7/Patche
 
 `Anneli_PupationStart` and `Anneli_PupationFinish` are EffecterDefs without display text or direct texture fields; their FleckDef artwork is redirected to the retheme folder. The `Annelitrice` race def has no direct `texPath`; its full pawn rendering uses HAR/NareisLib definitions and is outside this initial lore scaffold.
 
-Restart RimWorld after changing PNGs. The XML and path mappings have been checked against the installed 1.7 base mod; an in-game load test is still needed.
+The retheme now includes four integrated effects and their sounds: humanity becoming a pupa, a pupa emerging in a firestorm, egg hatching in a brief humanity burst, and the Share the Darksign ability. Their textures are in `Textures/Anneli_Retheme_DarkSouls/Anneli_Effect/`, sounds in `Sounds/`, FleckDefs and SoundDefs in `1.7/Defs/`, and effecter patches in `1.7/Patches/`.
+
+The base mod already spawns the three lifecycle EffecterDefs. This retheme attaches custom SubEffecters to the pupation and pupa-emergence effecters, uses XML alone for egg hatching, and attaches an ability comp for Darksign transfer. The animation assembly has no Harmony dependency; its source and project file are in `Source/Annelitrice.Retheme.DarkSouls/`. The former standalone `Annelitrice-AshToHumanity` add-on should be disabled when this retheme is enabled, or each effect will play twice.
+
+Restart RimWorld after changing PNGs or effect definitions. The XML and paths have been checked against the installed 1.7 base mod; an in-game load test is still needed.

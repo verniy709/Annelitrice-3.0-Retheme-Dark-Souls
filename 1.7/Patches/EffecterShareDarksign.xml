@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/EffecterDef[defName="Anneli_Infest"]/children/li[fleckDef="Anneli_Infest_Particle"]</xpath>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/EffecterDef[defName="Anneli_Infest"]/children/li[soundDef="Anneli_Infest"]/soundDef</xpath>
+    <value>
+      <soundDef>Anneli_Retheme_DarkSouls_ShareDarksign</soundDef>
+    </value>
+  </Operation>
+</Patch>

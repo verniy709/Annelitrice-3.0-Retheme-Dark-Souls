@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Replace the egg-hatch visuals and sound; leave pupa emergence untouched. -->
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/EffecterDef[defName="Anneli_Hatch"]/children/li[fleckDef]</xpath>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/EffecterDef[defName="Anneli_Hatch"]/children</xpath>
+    <value>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>Anneli_Retheme_DarkSouls_EggHatchTendrils</fleckDef>
+        <burstCount>1</burstCount>
+        <scale>1.00</scale>
+        <rotationRate>12</rotationRate>
+        <spawnLocType>OnSource</spawnLocType>
+        <positionOffset>(0, 0, 0.03)</positionOffset>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>Anneli_Retheme_DarkSouls_EggHatchCore</fleckDef>
+        <burstCount>2~3</burstCount>
+        <positionRadius>0.10</positionRadius>
+        <speed>0.12~0.26</speed>
+        <scale>0.77~0.97</scale>
+        <rotationRate>-13</rotationRate>
+        <spawnLocType>OnSource</spawnLocType>
+        <positionOffset>(0, 0, 0.05)</positionOffset>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>Anneli_Retheme_DarkSouls_EggHatchSoot</fleckDef>
+        <burstCount>2~3</burstCount>
+        <speed>0.25~0.44</speed>
+        <scale>0.55~0.74</scale>
+        <rotationRate>9</rotationRate>
+        <spawnLocType>OnSource</spawnLocType>
+        <positionOffset>(0, 0, 0.05)</positionOffset>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/EffecterDef[defName="Anneli_Hatch"]/children/li[soundDef="Anneli_PupationFinish"]/soundDef</xpath>
+    <value>
+      <soundDef>Anneli_Retheme_DarkSouls_EggHatch</soundDef>
+    </value>
+  </Operation>
+</Patch>

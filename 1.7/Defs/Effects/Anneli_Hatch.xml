@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <FleckDef ParentName="FleckBase">
+    <defName>Anneli_Retheme_DarkSouls_EggHatchTendrils</defName>
+    <graphicData>
+      <texPath>Anneli_Retheme_DarkSouls/Anneli_Effect/Anneli_Hatch/Tendrils</texPath>
+      <shaderType>MoteDistorted</shaderType>
+      <shaderParameters>
+        <_distortionScrollSpeed>(0.14, 0.19, 0.0)</_distortionScrollSpeed>
+        <_distortionScale>0.42</_distortionScale>
+        <_distortionIntensity>0.13</_distortionIntensity>
+      </shaderParameters>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0.025</fadeInTime>
+    <solidTime>0.14</solidTime>
+    <fadeOutTime>0.53</fadeOutTime>
+    <growthRate>2.40</growthRate>
+  </FleckDef>
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>Anneli_Retheme_DarkSouls_EggHatchCore</defName>
+    <graphicData>
+      <texPath>Anneli_Retheme_DarkSouls/Anneli_Effect/Anneli_PupationStart/Smoke</texPath>
+      <shaderType>MoteDistorted</shaderType>
+      <shaderParameters>
+        <_distortionScrollSpeed>(0.12, 0.18, 0.0)</_distortionScrollSpeed>
+        <_distortionScale>0.40</_distortionScale>
+        <_distortionIntensity>0.12</_distortionIntensity>
+      </shaderParameters>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0.015</fadeInTime>
+    <solidTime>0.12</solidTime>
+    <fadeOutTime>0.42</fadeOutTime>
+    <growthRate>0.32</growthRate>
+  </FleckDef>
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>Anneli_Retheme_DarkSouls_EggHatchSoot</defName>
+    <graphicData>
+      <texPath>Anneli_Retheme_DarkSouls/Anneli_Effect/Anneli_PupationStart/Haze</texPath>
+      <shaderType>MoteDistorted</shaderType>
+      <shaderParameters>
+        <_distortionScrollSpeed>(0.10, 0.14, 0.0)</_distortionScrollSpeed>
+        <_distortionScale>0.38</_distortionScale>
+        <_distortionIntensity>0.09</_distortionIntensity>
+      </shaderParameters>
+      <color>(0.66, 0.62, 0.65, 0.56)</color>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0.06</fadeInTime>
+    <solidTime>0.08</solidTime>
+    <fadeOutTime>0.58</fadeOutTime>
+    <growthRate>0.22</growthRate>
+  </FleckDef>
+</Defs>

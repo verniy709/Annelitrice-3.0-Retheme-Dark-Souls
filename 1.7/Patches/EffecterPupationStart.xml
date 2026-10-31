@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Keep the existing trigger while replacing its sound and long visual layers. -->
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/EffecterDef[defName="Anneli_PupationStart"]/children/li[fleckDef]</xpath>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/EffecterDef[defName="Anneli_PupationStart"]/children/li[soundDef="Anneli_PupationStart"]/soundDef</xpath>
+    <value>
+      <soundDef>Anneli_Retheme_DarkSouls_HumanityToPupa</soundDef>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/EffecterDef[defName="Anneli_PupationStart"]/children</xpath>
+    <value>
+      <li>
+        <subEffecterClass>Annelitrice.Retheme.DarkSouls.SubEffecter_HumanityToPupa</subEffecterClass>
+      </li>
+    </value>
+  </Operation>
+</Patch>

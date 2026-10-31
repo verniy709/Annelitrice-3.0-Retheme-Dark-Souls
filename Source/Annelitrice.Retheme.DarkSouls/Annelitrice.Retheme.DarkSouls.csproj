@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <AssemblyName>Annelitrice.Retheme.DarkSouls</AssemblyName>
+    <RootNamespace>Annelitrice.Retheme.DarkSouls</RootNamespace>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+    <DisableImplicitFrameworkReferences>true</DisableImplicitFrameworkReferences>
+    <NoStdLib>true</NoStdLib>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <RimWorldDirectory>D:\Steam\steamapps\common\RimWorld</RimWorldDirectory>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="*.cs" />
+    <Reference Include="$(RimWorldDirectory)\System*.dll" Exclude="$(RimWorldDirectory)\System.IO.Compression.Native.dll"><Private>false</Private></Reference>
+    <Reference Include="$(RimWorldDirectory)\mscorlib.dll"><Private>false</Private></Reference>
+    <Reference Include="$(RimWorldDirectory)\netstandard.dll"><Private>false</Private></Reference>
+    <Reference Include="$(RimWorldDirectory)\UnityStubs.dll"><Private>false</Private></Reference>
+    <Reference Include="$(RimWorldDirectory)\Assembly-CSharp.dll"><Private>false</Private></Reference>
+  </ItemGroup>
+</Project>

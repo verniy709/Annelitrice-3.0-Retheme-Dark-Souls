@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <SoundDef>
+    <defName>Anneli_Retheme_DarkSouls_HumanityToPupa</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Anneli_PupationStart</clipPath>
+          </li>
+        </grains>
+        <volumeRange>18~18</volumeRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+</Defs>
