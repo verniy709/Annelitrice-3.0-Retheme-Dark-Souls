@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Anneli.LarvaAllowPupation>允许化身人像</Anneli.LarvaAllowPupation>
+  <Anneli.LarvaAllowPupationDesc>关闭后，人性的饥饿值保持不变，吞噬灵魂也不会使其化身人像。重新开启后恢复正常。</Anneli.LarvaAllowPupationDesc>
+</LanguageData>
