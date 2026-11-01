@@ -49,11 +49,10 @@
     </value>
   </Operation>
 
-  <!-- ToDo -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Anneli_Anthelmintic"]/description</xpath>
     <value>
-      <description>ToDo.</description>
+      <description>An Annelitrice blooming moss that removes all addictions and cures flu, plague, malaria, gut worms, sleeping sickness, muscle parasites, fibrous mechanites, and sensory mechanites. Non-Annelitrice users may suffer food poisoning.</description>
     </value>
   </Operation>
 
@@ -120,49 +119,56 @@
       <texPath>Anneli_Retheme_DarkSouls/Anneli_Building/Fountain</texPath>
     </value>
   </Operation>
+
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Anneli_PuppetTheatre"]/graphicData/texPath</xpath>
     <value>
       <texPath>Anneli_Retheme_DarkSouls/Anneli_Building/PuppetTheatre</texPath>
     </value>
   </Operation>
+
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Anneli_Anthelmintic"]/graphicData/texPath</xpath>
     <value>
       <texPath>Anneli_Retheme_DarkSouls/Anneli_Item/Anthelmintic</texPath>
     </value>
   </Operation>
+
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Anneli_NutrientSolution"]/graphicData/texPath</xpath>
     <value>
       <texPath>Anneli_Retheme_DarkSouls/Anneli_Item/NutrientSolution</texPath>
     </value>
   </Operation>
+
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Anneli_ColonistEgg"]/graphicData/texPath</xpath>
     <value>
       <texPath>Anneli_Retheme_DarkSouls/Anneli_Item/Egg_Colonist</texPath>
     </value>
   </Operation>
+
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Anneli_OutsiderEgg"]/graphicData/texPath</xpath>
     <value>
       <texPath>Anneli_Retheme_DarkSouls/Anneli_Item/Egg</texPath>
     </value>
   </Operation>
+
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Anneli_Pupa"]/graphicData/texPath</xpath>
     <value>
       <texPath>Anneli_Retheme_DarkSouls/Anneli_Item/Pupa</texPath>
     </value>
   </Operation>
+
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/ThingDef[defName="AnnelitriceLarvaAsAnimal"]/statBases</xpath>
     <value>
       <MeatAmount>0</MeatAmount>
     </value>
   </Operation>
-  
+
   <!-- Butchery yields Anneli_NutrientSolution -->
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/ThingDef[defName="AnnelitriceLarvaAsAnimal"]</xpath>
@@ -172,6 +178,7 @@
       </butcherProducts>
     </value>
   </Operation>
+
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Anneli_NutrientSolution"]/comps/li[@Class="CompProperties_Usable"]/useLabel</xpath>
     <value>

@@ -4,12 +4,14 @@
   <Operation Class="PatchOperationRemove">
     <xpath>Defs/EffecterDef[defName="Anneli_PupationFinish"]/children/li[fleckDef]</xpath>
   </Operation>
+
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/EffecterDef[defName="Anneli_PupationFinish"]/children/li[soundDef="Anneli_PupationFinish"]/soundDef</xpath>
     <value>
       <soundDef>Anneli_Retheme_DarkSouls_PupaHatch</soundDef>
     </value>
   </Operation>
+
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/EffecterDef[defName="Anneli_PupationFinish"]/children</xpath>
     <value>

@@ -4,6 +4,7 @@
   <Operation Class="PatchOperationRemove">
     <xpath>Defs/EffecterDef[defName="Anneli_Hatch"]/children/li[fleckDef]</xpath>
   </Operation>
+
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/EffecterDef[defName="Anneli_Hatch"]/children</xpath>
     <value>
@@ -39,6 +40,7 @@
       </li>
     </value>
   </Operation>
+
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/EffecterDef[defName="Anneli_Hatch"]/children/li[soundDef="Anneli_PupationFinish"]/soundDef</xpath>
     <value>

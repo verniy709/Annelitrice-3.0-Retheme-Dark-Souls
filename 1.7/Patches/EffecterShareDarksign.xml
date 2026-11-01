@@ -3,6 +3,7 @@
   <Operation Class="PatchOperationRemove">
     <xpath>Defs/EffecterDef[defName="Anneli_Infest"]/children/li[fleckDef="Anneli_Infest_Particle"]</xpath>
   </Operation>
+
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/EffecterDef[defName="Anneli_Infest"]/children/li[soundDef="Anneli_Infest"]/soundDef</xpath>
     <value>

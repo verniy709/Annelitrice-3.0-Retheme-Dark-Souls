@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <Cure_Anneli_Infection.label>解除安妮莉黑暗之环</Cure_Anneli_Infection.label>
   <Cure_Anneli_Infection.description>这个医疗操作会解除安妮莉黑暗之环。</Cure_Anneli_Infection.description>
@@ -8,8 +8,8 @@
   <HatchAnneliEggs.description>从灰烬中唤醒安妮莉人性。</HatchAnneliEggs.description>
   <ButcherAnneliEggs.label>研磨安妮莉灰烬</ButcherAnneliEggs.label>
   <CremateAnneliEggs.label>焚毁安妮莉灰烬</CremateAnneliEggs.label>
-  <Anneli_AnthelminticAnneliEggs.label>annelitrice blooming moss production</Anneli_AnthelminticAnneliEggs.label>
-  <Anneli_AnthelminticAnneliEggs.description>Annelitrice blooming moss production.</Anneli_AnthelminticAnneliEggs.description>
+  <Anneli_AnthelminticAnneliEggs.label>制作安妮莉开花苔藓</Anneli_AnthelminticAnneliEggs.label>
+  <Anneli_AnthelminticAnneliEggs.description>制作安妮莉开花苔藓。</Anneli_AnthelminticAnneliEggs.description>
   <ResurrectAnneliCorpse.label>复活安妮莉不死人</ResurrectAnneliCorpse.label>
   <ResurrectAnneliCorpse.description>使用一份安妮莉灵魂，使倒下的安妮莉不死人复生。</ResurrectAnneliCorpse.description>
   <ResurrectAnneliCorpse.jobString>正在复活安妮莉不死人。</ResurrectAnneliCorpse.jobString>

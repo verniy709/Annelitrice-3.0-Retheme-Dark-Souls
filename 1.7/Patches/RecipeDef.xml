@@ -79,6 +79,7 @@
       </products>
     </value>
   </Operation>
+
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/RecipeDef[defName="ResurrectAnneliCorpse"]/label</xpath>
     <value>
