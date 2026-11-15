@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>Anneli_Retheme_DarkSouls_PaintedWorldSnow</defName>
+    <graphicData>
+      <texPath>Anneli_Retheme_DarkSouls/Anneli_Effect/Anneli_PuppetTheatre/SnowDot</texPath>
+      <drawSize>(1,1)</drawSize>
+      <shaderType>Mote</shaderType>
+      <renderInstanced>true</renderInstanced>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0.12</fadeInTime>
+    <solidTime>2.45</solidTime>
+    <fadeOutTime>1.05</fadeOutTime>
+    <speedPerTime>0</speedPerTime>
+  </FleckDef>
+</Defs>

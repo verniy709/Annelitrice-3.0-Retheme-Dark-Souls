@@ -100,3 +100,26 @@ Copy-Item -LiteralPath "$env:TEMP\AnneliDarkSouls\bin\Annelitrice.Retheme.DarkSo
 已合并效果补丁、粒子定义、声音定义与说明，删除旧无效贴图重定向和空占位说明；旧粒子移除补丁改为精确指定原节点，声音移入独立目录，版本源码归入`1.7/Source`。65张贴图、4份声音素材、四组效果参数与播放配置保持。中文一处旧种族称呼统一为当前“不死人”用语。
 
 `.git`与`.gitattributes`保留。本文件是模组内唯一Markdown说明；检查记录、完整备份、回退脚本与发布包保存在模组目录外。
+
+
+## 安妮莉篝火的环境表现（Fountain）
+
+`Anneli_Fountain` 增加两个原生 `CompProperties_ThrownFleckEmitter`，分别发射少量灰烟与暖橙火星。灰烟每 45 tick 一缕，火星每 18 tick 一颗，向上轻飘并自然淡出。复用本 Retheme 的 `Haze.png` 与 `HatchEmber.png`，专用 FleckDef 位于 `1.7/Defs/Effects/Fleck_Bonfire.xml`，不会修改其他技能使用的粒子参数。
+
+原生 `CompProperties_AmbientSound` 播放轻微的燃烧噼啪循环：独立 SoundDef 位于 `1.7/Defs/SoundDefs/BonfireAmbience.xml`，引用游戏自带的 `Misc/Fire/BurningLoop`，无需复制声音文件。音量为 `30~60`，距离范围 `5~25`，短淡入淡出，暂停时静音，最多同时保留两个最近声源。建筑移走或拆除时由原生组件结束声音。
+
+上述组件只增加环境表现。篝火建成并放置在地图上后即持续工作，不要求正在执行配方；未添加燃料、电力、热量、照明或新的玩法结算。补丁保留现有和继承的工作台组件，并明确使用 Normal tick 驱动粒子及环境音。当前配方调整与已更新的十二张灰烬贴图保持原样。
+
+这次仅更新 XML 与本说明，程序集、源码及全部原有素材不变。离线检查覆盖补丁的有/无 comps 两种情况、继承组件保留、Normal tick、原生字段与资源引用；实际游戏视觉与听感需重启游戏体验。
+
+
+## 绘画世界的落雪（PuppetTheatre）
+
+`Anneli_PuppetTheatre` 增加一个原生 `CompProperties_ThrownFleckEmitter`，每 12 tick 发射一颗细小的淡蓝白雪点。从塔尖上方约 0.88–0.98 格处，在横向 1.2 格范围内生成，沿屏幕由上向下缓缓落下，略有横向偏移，在台面附近淡出。粒子大小 0.025–0.045 格，寿命约 3.62 秒，常速稳定时约 18 颗可见雪点，形成局部、稀疏的持续落雪。
+
+专用 FleckDef 位于 `1.7/Defs/Effects/Fleck_PaintedWorld.xml`，使用专用单颗雪点贴图 `Textures/Anneli_Retheme_DarkSouls/Anneli_Effect/Anneli_PuppetTheatre/SnowDot.png`。该贴图只有一颗柔边圆点，避免原版 `SnowBit` 在游戏中呈现为细碎雪屑簇。原生发射组件的 `velocityX` 实际传入速度角度，因此使用 173–187 度朝下发射，`velocityY` 为 0.35–0.42 的速度范围。雪点方向不随建筑朝向旋转，始终在屏幕上从上往下落。
+
+建成放置后持续播放，不依赖观众、季节或天气，也不会产生实际积雪、温度或天气变化。补丁保留既有组件并明确采用 Normal tick。篝火的烟雾、火星和低声燃烧循环保持原样；此次仅更新 XML 和本说明，没有改动程序集、源码、既有贴图或声音。更新后重启游戏加载。
+
+
+落雪第二版修正了首版预览与实际素材不一致的问题：首版用圆点示意轨迹，但游戏引用原版 SnowBit；现在预览和游戏均读取同一张 SnowDot.png。出生位置、大小、下落速度、发射间隔、透明度和寿命保持原样，继续使用原生 CompProperties_ThrownFleckEmitter。离线预览仍非游戏实录，游戏缩放和渲染可能影响细节。

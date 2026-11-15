@@ -186,4 +186,154 @@
     </value>
   </Operation>
 
+
+  <!-- Bonfire atmosphere; preserve existing/inherited workbench components. -->
+<Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="Anneli_Fountain"]/comps</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Anneli_Fountain"]/comps</xpath>
+      <value>
+        <li Class="CompProperties_ThrownFleckEmitter">
+          <fleck>Anneli_Retheme_DarkSouls_BonfireSmoke</fleck>
+          <offsetMin>(-0.10,0,0.12)</offsetMin>
+          <offsetMax>(0.10,0,0.22)</offsetMax>
+          <emissionInterval>45</emissionInterval>
+          <burstCount>1</burstCount>
+          <scale>0.44~0.60</scale>
+          <rotationRate>-7~7</rotationRate>
+          <velocityX>-10~14</velocityX>
+          <velocityY>0.14~0.24</velocityY>
+          <colorA>(0.90,0.86,0.80,0.30)</colorA>
+          <colorB>(1,0.96,0.90,0.40)</colorB>
+        </li>
+        <li Class="CompProperties_ThrownFleckEmitter">
+          <fleck>Anneli_Retheme_DarkSouls_BonfireEmber</fleck>
+          <offsetMin>(-0.13,0,-0.06)</offsetMin>
+          <offsetMax>(0.13,0,0.13)</offsetMax>
+          <emissionInterval>18</emissionInterval>
+          <burstCount>1</burstCount>
+          <scale>0.045~0.085</scale>
+          <rotationRate>-35~35</rotationRate>
+          <velocityX>-24~24</velocityX>
+          <velocityY>0.38~0.68</velocityY>
+          <colorA>(1,0.42,0.08,0.85)</colorA>
+          <colorB>(1,0.72,0.22,0.95)</colorB>
+        </li>
+        <li Class="CompProperties_AmbientSound">
+          <sound>Anneli_Retheme_DarkSouls_BonfireAmbience</sound>
+          <disabledOnUnpowered>false</disabledOnUnpowered>
+        </li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Anneli_Fountain"]</xpath>
+      <value>
+        <comps>
+          <li Class="CompProperties_ThrownFleckEmitter">
+            <fleck>Anneli_Retheme_DarkSouls_BonfireSmoke</fleck>
+            <offsetMin>(-0.10,0,0.12)</offsetMin>
+            <offsetMax>(0.10,0,0.22)</offsetMax>
+            <emissionInterval>45</emissionInterval>
+            <burstCount>1</burstCount>
+            <scale>0.44~0.60</scale>
+            <rotationRate>-7~7</rotationRate>
+            <velocityX>-10~14</velocityX>
+            <velocityY>0.14~0.24</velocityY>
+            <colorA>(0.90,0.86,0.80,0.30)</colorA>
+            <colorB>(1,0.96,0.90,0.40)</colorB>
+          </li>
+          <li Class="CompProperties_ThrownFleckEmitter">
+            <fleck>Anneli_Retheme_DarkSouls_BonfireEmber</fleck>
+            <offsetMin>(-0.13,0,-0.06)</offsetMin>
+            <offsetMax>(0.13,0,0.13)</offsetMax>
+            <emissionInterval>18</emissionInterval>
+            <burstCount>1</burstCount>
+            <scale>0.045~0.085</scale>
+            <rotationRate>-35~35</rotationRate>
+            <velocityX>-24~24</velocityX>
+            <velocityY>0.38~0.68</velocityY>
+            <colorA>(1,0.42,0.08,0.85)</colorA>
+            <colorB>(1,0.72,0.22,0.95)</colorB>
+          </li>
+          <li Class="CompProperties_AmbientSound">
+            <sound>Anneli_Retheme_DarkSouls_BonfireAmbience</sound>
+            <disabledOnUnpowered>false</disabledOnUnpowered>
+          </li>
+        </comps>
+      </value>
+    </nomatch>
+  </Operation>
+<Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="Anneli_Fountain"]/tickerType</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Anneli_Fountain"]/tickerType</xpath>
+      <value>
+        <tickerType>Normal</tickerType>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Anneli_Fountain"]</xpath>
+      <value>
+        <tickerType>Normal</tickerType>
+      </value>
+    </nomatch>
+  </Operation>
+
+  <!-- Local snowfall over the painted world. -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="Anneli_PuppetTheatre"]/comps</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Anneli_PuppetTheatre"]/comps</xpath>
+      <value>
+        <li Class="CompProperties_ThrownFleckEmitter">
+          <fleck>Anneli_Retheme_DarkSouls_PaintedWorldSnow</fleck>
+          <offsetMin>(-0.60,0,0.88)</offsetMin>
+          <offsetMax>(0.60,0,0.98)</offsetMax>
+          <emissionInterval>12</emissionInterval>
+          <burstCount>1</burstCount>
+          <scale>0.025~0.045</scale>
+          <rotationRate>-18~18</rotationRate>
+          <velocityX>173~187</velocityX>
+          <velocityY>0.35~0.42</velocityY>
+          <colorA>(0.82,0.90,1,0.70)</colorA>
+          <colorB>(0.98,1,1,0.95)</colorB>
+        </li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Anneli_PuppetTheatre"]</xpath>
+      <value>
+        <comps>
+          <li Class="CompProperties_ThrownFleckEmitter">
+            <fleck>Anneli_Retheme_DarkSouls_PaintedWorldSnow</fleck>
+            <offsetMin>(-0.60,0,0.88)</offsetMin>
+            <offsetMax>(0.60,0,0.98)</offsetMax>
+            <emissionInterval>12</emissionInterval>
+            <burstCount>1</burstCount>
+            <scale>0.025~0.045</scale>
+            <rotationRate>-18~18</rotationRate>
+            <velocityX>173~187</velocityX>
+            <velocityY>0.35~0.42</velocityY>
+            <colorA>(0.82,0.90,1,0.70)</colorA>
+            <colorB>(0.98,1,1,0.95)</colorB>
+          </li>
+        </comps>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="Anneli_PuppetTheatre"]/tickerType</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Anneli_PuppetTheatre"]/tickerType</xpath>
+      <value>
+        <tickerType>Normal</tickerType>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Anneli_PuppetTheatre"]</xpath>
+      <value>
+        <tickerType>Normal</tickerType>
+      </value>
+    </nomatch>
+  </Operation>
 </Patch>
