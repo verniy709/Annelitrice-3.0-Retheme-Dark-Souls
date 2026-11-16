@@ -10,6 +10,16 @@ namespace Annelitrice.Retheme.DarkSouls
         internal bool Valid => map != null && cell.IsValid;
     }
 
+    public sealed class SubEffecter_HumanityEmergence : SubEffecter
+    {
+        public SubEffecter_HumanityEmergence(SubEffecterDef def, Effecter parent) : base(def, parent) { }
+
+        public override void SubTrigger(TargetInfo A, TargetInfo B, int overrideSpawnTick, bool force)
+        {
+            HumanityEmergenceAnimation.Start(new PupationSite { map = A.Map, cell = A.Cell });
+        }
+    }
+
     // The base mod already calls these EffecterDefs at the right moments.
     // Their custom children start the longer animations without patching code.
     public sealed class SubEffecter_HumanityToPupa : SubEffecter

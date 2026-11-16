@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>Anneli_Retheme_DarkSouls_HatchFlameTongue</defName>
+    <graphicData>
+      <texPath>Anneli_Retheme_DarkSouls/Anneli_Effect/Anneli_PupationFinish/FlameTongue</texPath>
+      <shaderType>MoteDistorted</shaderType>
+      <shaderParameters>
+        <_distortionScrollSpeed>(0.09, 0.17, 0.0)</_distortionScrollSpeed>
+        <_distortionScale>0.35</_distortionScale>
+        <_distortionIntensity>0.05</_distortionIntensity>
+      </shaderParameters>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0.04</fadeInTime>
+    <solidTime>0.13</solidTime>
+    <fadeOutTime>0.52</fadeOutTime>
+    <growthRate>0.08</growthRate>
+  </FleckDef>
+</Defs>

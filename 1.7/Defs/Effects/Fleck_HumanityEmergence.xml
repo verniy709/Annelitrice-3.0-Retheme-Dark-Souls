@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>Anneli_Retheme_DarkSouls_HumanityEmergenceVeil</defName>
+    <graphicData>
+      <texPath>Anneli_Retheme_DarkSouls/Anneli_Effect/Anneli_PupationStart/Smoke</texPath>
+      <shaderType>MoteDistorted</shaderType>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0.03</fadeInTime>
+    <solidTime>0.16</solidTime>
+    <fadeOutTime>0.45</fadeOutTime>
+    <growthRate>0.30</growthRate>
+  </FleckDef>
+  <FleckDef ParentName="FleckBase">
+    <defName>Anneli_Retheme_DarkSouls_HumanityEmergenceBloom</defName>
+    <graphicData>
+      <texPath>Anneli_Retheme_DarkSouls/Anneli_Effect/Anneli_Hatch/HumanityBloom</texPath>
+      <shaderType>MoteDistorted</shaderType>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0.02</fadeInTime>
+    <solidTime>0.09</solidTime>
+    <fadeOutTime>0.62</fadeOutTime>
+    <growthRate>1.35</growthRate>
+  </FleckDef>
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>Anneli_Retheme_DarkSouls_HumanityEmergenceWisp</defName>
+    <graphicData>
+      <texPath>Anneli_Retheme_DarkSouls/Anneli_Effect/Anneli_Hatch/HumanityWisp</texPath>
+      <shaderType>MoteDistorted</shaderType>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0.04</fadeInTime>
+    <solidTime>0.15</solidTime>
+    <fadeOutTime>0.72</fadeOutTime>
+    <growthRate>-0.12</growthRate>
+  </FleckDef>
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>Anneli_Retheme_DarkSouls_HumanityEmergenceAsh</defName>
+    <graphicData>
+      <texPath>Anneli_Retheme_DarkSouls/Anneli_Effect/Anneli_PupationStart/Fragment</texPath>
+      <shaderType>Mote</shaderType>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0.01</fadeInTime>
+    <solidTime>0.18</solidTime>
+    <fadeOutTime>0.55</fadeOutTime>
+    <acceleration>(0, 0, -0.75)</acceleration>
+  </FleckDef>
+</Defs>
